@@ -1,0 +1,5 @@
+org\example\pages\OTPVerificationPage.class
+org\example\stepDefs\Hooks.class
+org\example\pages\RegistrationPage.class
+org\example\testRunner\Runner.class
+org\example\stepDefs\Registration_StepDef.class

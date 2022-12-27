@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="102.003">
+<testcase classname="User can register to the website so that he could use the website's features" name="User can register with valid data" time="20.06">
+<system-out><![CDATA[Given User is on the registration page......................................passed
+When User enters "Test" in the name field...................................passed
+And User enters "TestTG2@test2.com" in the email field......................passed
+And User enters "Test123456789" in the password field.......................passed
+And User enters "565105599" in the mobile field.............................passed
+And User clicks on register button..........................................passed
+Then User should be redirected to the OTP page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can register to the website so that he could use the website's features" name="User can't register with invalid data" time="11.155">
+<system-out><![CDATA[Given User is on the registration page......................................passed
+When User enters "" in the name field.......................................passed
+And User enters "TestTG@error.com" in the email field.......................passed
+And User enters "Test123456789" in the password field.......................passed
+And User enters "565105599" in the mobile field.............................passed
+And User clicks on register button..........................................passed
+Then "الاسم مطلوب." message should appear...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can register to the website so that he could use the website's features" name="User can't register with invalid data 2" time="10.087">
+<system-out><![CDATA[Given User is on the registration page......................................passed
+When User enters "test" in the name field...................................passed
+And User enters "" in the email field.......................................passed
+And User enters "Test123456789" in the password field.......................passed
+And User enters "565105599" in the mobile field.............................passed
+And User clicks on register button..........................................passed
+Then "البريد الالكتروني مطلوب." message should appear.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can register to the website so that he could use the website's features" name="User can't register with invalid data 3" time="10.439">
+<system-out><![CDATA[Given User is on the registration page......................................passed
+When User enters "test" in the name field...................................passed
+And User enters "TestTG@error.com" in the email field.......................passed
+And User enters "" in the password field....................................passed
+And User enters "565105599" in the mobile field.............................passed
+And User clicks on register button..........................................passed
+Then "كلمة المرور مطلوبة" message should appear.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can register to the website so that he could use the website's features" name="User can't register with invalid data 4" time="10.743">
+<system-out><![CDATA[Given User is on the registration page......................................passed
+When User enters "test" in the name field...................................passed
+And User enters "TestTG@error.com" in the email field.......................passed
+And User enters "Test123456789" in the password field.......................passed
+And User enters "" in the mobile field......................................passed
+And User clicks on register button..........................................passed
+Then "رقم الجوال مطلوب." message should appear..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can register to the website so that he could use the website's features" name="User can't register with invalid data 5" time="8.818">
+<system-out><![CDATA[Given User is on the registration page......................................passed
+When User enters "test" in the name field...................................passed
+And User enters "TestTG2.com" in the email field............................passed
+And User enters "Test123456789" in the password field.......................passed
+And User enters "565105599" in the mobile field.............................passed
+And User clicks on register button..........................................passed
+Then "يجب كتابة البريد الإلكتروني بشكل صحيح" message should appear..........passed
+]]></system-out>
+</testcase>
+<testcase classname="User can register to the website so that he could use the website's features" name="User can't register with invalid data 6" time="9.115">
+<system-out><![CDATA[Given User is on the registration page......................................passed
+When User enters "test" in the name field...................................passed
+And User enters "TestTG3@error.com" in the email field......................passed
+And User enters "Test123456789" in the password field.......................passed
+And User enters "565105599" in the mobile field.............................passed
+And User clicks on register button..........................................passed
+Then "البريد الإلكتروني مستخدم من قبل." message should appear...............passed
+]]></system-out>
+</testcase>
+<testcase classname="User can register to the website so that he could use the website's features" name="User can't register with invalid data 7" time="10.801">
+<system-out><![CDATA[Given User is on the registration page......................................passed
+When User enters "test" in the name field...................................passed
+And User enters "TestTG@error.com" in the email field.......................passed
+And User enters "12345" in the password field...............................passed
+And User enters "565105599" in the mobile field.............................passed
+And User clicks on register button..........................................passed
+Then "كلمة المرور يجب ان تحتوي على 8 حروف أو ارقام على الأقل" message should appear.passed
+]]></system-out>
+</testcase>
+<testcase classname="User can register to the website so that he could use the website's features" name="User can't register with invalid data 8" time="10.64">
+<system-out><![CDATA[Given User is on the registration page......................................passed
+When User enters "test" in the name field...................................passed
+And User enters "TestTG@error.com" in the email field.......................passed
+And User enters "Test123456789" in the password field.......................passed
+And User enters "554431" in the mobile field................................passed
+And User clicks on register button..........................................passed
+Then "رقم الجوال يجب ان يحتوي على 8 أرقام على الأقل" message should appear..passed
+]]></system-out>
+</testcase>
+</testsuite>

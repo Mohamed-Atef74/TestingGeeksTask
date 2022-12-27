@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="102395" started-at="2022-12-27T08:44:15 EET" finished-at="2022-12-27T08:45:57 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="102395" started-at="2022-12-27T08:44:15 EET" finished-at="2022-12-27T08:45:57 EET">
+      <class name="org.example.testRunner.Runner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="setUpClass" is-config="true" duration-ms="352" started-at="2022-12-27T08:44:15 EET" finished-at="2022-12-27T08:44:15 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@228bda54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" duration-ms="20107" started-at="2022-12-27T08:44:15 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-27T08:44:35 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can register with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User can register to the website so that he could use the website's features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" duration-ms="11160" started-at="2022-12-27T08:44:35 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-27T08:44:47 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can't register with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User can register to the website so that he could use the website's features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" duration-ms="10093" started-at="2022-12-27T08:44:47 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-27T08:44:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can't register with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User can register to the website so that he could use the website's features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" duration-ms="10444" started-at="2022-12-27T08:44:57 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-27T08:45:07 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can't register with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User can register to the website so that he could use the website's features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" duration-ms="10748" started-at="2022-12-27T08:45:07 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-27T08:45:18 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can't register with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User can register to the website so that he could use the website's features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" duration-ms="8822" started-at="2022-12-27T08:45:18 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-27T08:45:27 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can't register with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User can register to the website so that he could use the website's features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" duration-ms="9119" started-at="2022-12-27T08:45:27 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-27T08:45:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can't register with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User can register to the website so that he could use the website's features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" duration-ms="10805" started-at="2022-12-27T08:45:36 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-27T08:45:47 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can't register with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User can register to the website so that he could use the website's features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="runScenario" duration-ms="10644" started-at="2022-12-27T08:45:47 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-27T08:45:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can't register with invalid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User can register to the website so that he could use the website's features"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:org.example.testRunner.Runner@1a1d6a08]" name="tearDownClass" is-config="true" duration-ms="80" started-at="2022-12-27T08:45:57 EET" finished-at="2022-12-27T08:45:57 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.example.testRunner.Runner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
